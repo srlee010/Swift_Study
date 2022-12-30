@@ -17,7 +17,15 @@ print("저의 이름은 \(name)이고, 나이는 \(age)세 이며, 직업은 \(j
 
 // let
 // let 상수명 : 데이터타입 = 값
-let fullname : String = "이소라"
-var realage: Int = 100
+let fullName : String = "이소라"
+var realAge: Int = 100
+var realJob = "K직딩" // 타입추론
+let weight = 99 // 타입추론
 
+print("\(type(of: realJob))")    // Double
+print("\(type(of: weight))")    // Double
 
+realAge = 90
+realJob = "개발자"
+
+print("저의 진짜 이름은 \(fullName)이고, 나이는 \(realAge)살 이며, 직업은 \(realJob)입니다!")
