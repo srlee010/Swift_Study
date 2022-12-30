@@ -1,0 +1,23 @@
+// var
+// var 변수명 : 데이터타입 = 값
+var name : String = "소라"
+var age : Int = 100
+var job = "서비스기획자"  // 타입추론
+
+print("\(type(of: job))")
+
+// 변수는 값을 변경할 수 있다
+age = 99
+
+// 변경할때는 기존의 타입과 동일하게 값을 할당해줘야 한다
+job = "개발공부를 좋아하는 서비스기획자"
+
+print("저의 이름은 \(name)이고, 나이는 \(age)세 이며, 직업은 \(job)입니다.")
+
+
+// let
+// let 상수명 : 데이터타입 = 값
+let fullname : String = "이소라"
+var realage: Int = 100
+
+
