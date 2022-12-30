@@ -87,3 +87,11 @@ print("Your name is \(name1), your age is \(age1), and your latitude is \(latitu
 var age2 = 25
 print("You are \(age2) years old. In another \(age2) years you will be \(age2 * 2).")
 
+// 6. Type annotation
+let album : String = "NewJeans"
+let year : Int = 2022
+let height : Double = 1.24
+let NewJeansRocks : Bool = true
+
+
+
