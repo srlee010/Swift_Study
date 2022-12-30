@@ -57,3 +57,14 @@ over multiple \
 lines
 """
 print(str2)
+
+
+// 3. Doubles and booleans
+var boolean : Bool = false
+boolean.toggle() // false -> true
+
+let MyNameIsSora : Bool = true
+let MyNameIsJenny : Bool = false
+
+print("내 이름은 소라입니까? : \(MyNameIsSora)")
+print("당신의 이름은 제니입니까? : \(MyNameIsJenny)")
