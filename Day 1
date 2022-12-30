@@ -94,4 +94,15 @@ let height : Double = 1.24
 let NewJeansRocks : Bool = true
 
 
+// Simple types: Summary
+var summary: String = """
+[Simple types : Summary]
+1. You make variables using var and constants using let.
+It's preferable to use constants as often as possible.
+2. Strings start and end with double quotes, but if you want them to run across multiple lines you should thress sets of doulbe quotes.
+3. Integers hold whole numbers, doubles hold fractional numbers, booleans hold true of false.
+4. String interpolation allows you to create strings from other variables and constants, placing their values inside your string.
+5. Swift uses type inference to assign each variable or constant a type, but you can provice explicit types if you want.
+"""
+print(summary)
 
