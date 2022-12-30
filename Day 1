@@ -1,3 +1,5 @@
+// 1. Varaibles and Constants
+
 // var
 // var 변수명 : 데이터타입 = 값
 var name : String = "소라"
@@ -29,3 +31,29 @@ realAge = 90
 realJob = "개발자"
 
 print("저의 진짜 이름은 \(fullName)이고, 나이는 \(realAge)살 이며, 직업은 \(realJob)입니다!")
+
+
+
+
+// 2. Strings and integers
+var str = "Hello, playground"
+var realage = 100
+var population = 8_000_000 // 큰 숫자면 underscore이용해서 구분한다
+
+// 3. Multi-line Strings
+// 코드의 들여 쓰기는 마지막 """을 기준으로 정해진다
+// 문자열이 마지막 """보다 앞에 있다면 에러가 발생함
+var str1 = """
+    This goes
+    over multiple
+    lines
+"""
+print(str1)
+
+// Multi-line에서 줄 바꿈 하기 싫다면 \(back slash) 사용
+var str2 = """
+This goes \
+over multiple \
+lines
+"""
+print(str2)
