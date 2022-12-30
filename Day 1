@@ -68,3 +68,15 @@ let MyNameIsJenny : Bool = false
 
 print("내 이름은 소라입니까? : \(MyNameIsSora)")
 print("당신의 이름은 제니입니까? : \(MyNameIsJenny)")
+
+// 5. String interploation (문자열 보간)
+var score = 90
+var str3 = "Yout score was \(score)"
+var results = "The test results are here: \(str3)"
+print(results)
+
+var city = "서울"
+var message = "Welcome to \(city)~!"
+print(message)
+
+
