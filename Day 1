@@ -59,7 +59,7 @@ lines
 print(str2)
 
 
-// 3. Doubles and booleans
+// 4. Doubles and booleans
 var boolean : Bool = false
 boolean.toggle() // false -> true
 
@@ -69,7 +69,7 @@ let MyNameIsJenny : Bool = false
 print("내 이름은 소라입니까? : \(MyNameIsSora)")
 print("당신의 이름은 제니입니까? : \(MyNameIsJenny)")
 
-// 5. String interploation (문자열 보간)
+// 5. String interpolation (문자열 보간)
 var score = 90
 var str3 = "Yout score was \(score)"
 var results = "The test results are here: \(str3)"
@@ -79,4 +79,11 @@ var city = "서울"
 var message = "Welcome to \(city)~!"
 print(message)
 
+var name1 = "New Jeans"
+var age1 = 25
+var latitude = 24.234421
+print("Your name is \(name1), your age is \(age1), and your latitude is \(latitude).")
+// 문자열 보간 안에서 연산자를 사용 할 수 있다.
+var age2 = 25
+print("You are \(age2) years old. In another \(age2) years you will be \(age2 * 2).")
 
