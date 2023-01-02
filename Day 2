@@ -94,11 +94,21 @@ let favoriteIceCream = ["소라": "초코", "지우": "딸기"]
 favoriteIceCream["소라"] // 소라가 좋아하는 아이스크림 확인하는법
 favoriteIceCream["민주"] // 해당 키값이 없을 때 nill 반환
 favoriteIceCream["민주", default: "unknown"] // unknown의 기본값을 지정해 nill이 반환되는 문제 해결 가능 -> unknown반환됨 ⭐️딕셔너리 기본값이 필요한 이유? 딕셔너리에서 값이 없을때마다 nill이 호출되면 코드에 문제가 생길 수 있음, 누락값음 안전하게 처리하기 위해 기능을 추가해야하기 때문에 사전 기본값이 입력됨
+
 // 예시 1
 let planets = [1: "Mercury", 2: "Venus"]
 let venus = planets[2, default: "Planet X"]
+
 // 예시 2
 let books = ["Austen": "Pride and Prejudice"]
 let dickens = books["dickens", default: "unknown"]
 let rainbow = books["rainbow", default: "unknown"]
+
+// 예시 3
+var responseMessage = [200: "OK",
+                       403: "Access forbidden",
+                       404: "File not found",
+                       500: "Internal Server error"]
+responseMessage[200]
+responseMessage[500]
 
