@@ -67,3 +67,20 @@ var ratings = Set([1, 1, 1, 2, 2, 2]) // Set에는 고유항목이 포함되어 
 let SetTest:Set = ["가", "나", "다", "라"]
 print(SetTest)
 
+
+// 3. Tuples
+var name = (first: "Swift", last: "Taylor")
+name.0
+name.1
+name.first
+
+// 튜플의 장점! : 사용자가 직접 값 생성해서 이름 & 유형을 동시에 제공함
+var person = (name: "소라", age: 100, isRich: true)
+
+// 튜플과 배열의 차이점
+var websiteTuple = (Name: "소라빵블로그", url: "https://blog.naver.com/loleego") // 튜플: 유형 변경 불가 (nam & url로만 지정했기 때문)
+websiteTuple.0
+var websiteArray = ["소라빵블로그", "https://blog.naver.com"] // 배열: 이름(유형)이 없으므로 더 많은 항목 추가 가능
+websiteArray[0]
+
+
