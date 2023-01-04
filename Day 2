@@ -158,3 +158,16 @@ enum Apple {
     }
 var MyAppleItems = Apple.iphone
 print(type(of: MyAppleItems))
+
+
+// 7. Enum associated values
+enum Activity {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+let talking = Activity.talking(topic: "Soccer")
+
+
+
