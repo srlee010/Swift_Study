@@ -217,3 +217,16 @@ lunch = MainLunch.pizza(dough: .original, topping: .pepperoni)
 print(lunch)
 
 
+//  8. Enum Raw Values
+enum Planet: Int {
+    case mercury = 1 // 여기에 정수값 1을 직접 할당하면 Swift가 위에서부터 아래로 자동으로 숫자 생성함.
+    case venus
+    case earth
+    case mars
+}
+let earth = Planet(rawValue: 3) // earth
+print(Planet.mercury.rawValue) // 1
+print(Planet.venus.rawValue) // 2
+print(Planet.earth.rawValue) // 3
+
+
