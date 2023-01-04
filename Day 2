@@ -171,3 +171,21 @@ let talking = Activity.talking(topic: "Soccer")
 
 
 
+// 예시 1 : 이렇게 세부적으로 열거형에 관련 정보를 추가하게 되면 복잡한 코드를 작성하지 않아도 됩니다.
+enum Weather {
+    case sunny
+    case windy(speed: Int)
+    case rainy(chance: Int, amount: Int)
+}
+let Windy = Weather.windy(speed: 23)
+
+// 예시 2:
+enum MainDish {
+    case pasta(taste: String)
+    case pizza(dough: String, topping: String)
+    case chicken(sauce: Bool)
+    case rice
+}
+let Chicken = MainDish.chicken(sauce: true)
+
+
