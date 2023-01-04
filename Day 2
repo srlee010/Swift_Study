@@ -192,3 +192,28 @@ dinner = .pasta(taste: "Cream")
 print(dinner)
 
 
+// 만약 식당 재료가 한정적이라 파스타의 맛, 피자 도우, 토핑등을 특정 메뉴로 한정 짓고 싶다면 ? 아래와 같이 열거형으로 바꾸면 됨
+enum PastaTaste {
+    case cream, tomato
+}
+
+enum PizzaDough {
+    case cheeseCrust, thin, original
+}
+
+enum PizzaTopping {
+    case pepperoni, cheese, bacon
+}
+
+enum MainLunch {
+    case pasta(pasta: PastaTaste)
+    case pizza(dough: PizzaDough, topping: PizzaTopping)
+    case chicken(sauce: Bool)
+    case rice
+}
+
+var lunch: MainLunch = MainLunch.chicken(sauce: true)
+lunch = MainLunch.pizza(dough: .original, topping: .pepperoni)
+print(lunch)
+
+
