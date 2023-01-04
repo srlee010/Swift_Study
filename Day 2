@@ -187,5 +187,8 @@ enum MainDish {
     case rice
 }
 let Chicken = MainDish.chicken(sauce: true)
+var dinner: MainDish = MainDish.chicken(sauce: false)
+dinner = .pasta(taste: "Cream")
+print(dinner)
 
 
