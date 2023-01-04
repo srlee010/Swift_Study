@@ -113,6 +113,8 @@ responseMessage[200]
 responseMessage[500]
 
 
+
+
 // 5. Dictionary default values
 let favoriteIceCream2 = [
     "Paul": "Chocolate",
@@ -122,6 +124,8 @@ let favoriteIceCream2 = [
 favoriteIceCream2["Paul"]
 favoriteIceCream2["Sarah"]
 favoriteIceCream2["Sarah", default: "unknown"]
+
+
 
 
 // 6. Creating empty collections
@@ -137,6 +141,20 @@ var scores1 = Dictionary<String, Int>()
 var results1 = Array<Int>()
 
 
+
 // 7. enum
-
-
+let result = "failure"
+let result2 = "failed"
+let result3 = "fail"
+enum Result {
+    case success
+    case failure
+}
+let result4 = Result.success
+let result5 = Result.failure
+// 예시
+enum Apple {
+    case iphone, iPad, AirPods, Mac
+    }
+var MyAppleItems = Apple.iphone
+print(type(of: MyAppleItems))
