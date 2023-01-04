@@ -112,3 +112,31 @@ var responseMessage = [200: "OK",
 responseMessage[200]
 responseMessage[500]
 
+
+// 5. Dictionary default values
+let favoriteIceCream2 = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanila"
+]
+
+favoriteIceCream2["Paul"]
+favoriteIceCream2["Sarah"]
+favoriteIceCream2["Sarah", default: "unknown"]
+
+
+// 6. Creating empty collections
+var teams = [String: String]()
+teams["Paul"] = "red" // 나중에 항목 추가할때 이렇게 하면 됨
+// 정수를 저장하기 위해 Empty Array 만들 수도 있음'
+var results = [Int]()
+// 예외: Empty Set을 만들때는 다르게 선언해야함! 이유는 Swift가 딕셔너리와 배열만을 위한 특별한 구문을 가지고 있기 때문.
+var words = Set<String>()
+var numbers = Set<Int>()
+// 다른 유형은 집합과 같은 꺽쇠 괄호 구문을 사용해야한다.
+var scores1 = Dictionary<String, Int>()
+var results1 = Array<Int>()
+
+
+// 7. enum
+
+
