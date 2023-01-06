@@ -1,1 +1,20 @@
+// 1. Arithmetic operators 산술연산자
 
+let firstScore = 12
+let secondScore = 4
+
+let total = firstScore + secondScore
+let difference = firstScore - secondScore
+
+let product = firstScore * secondScore
+let divided = firstScore / secondScore
+let remainder = 13 % secondScore
+
+// 2. Operator overloading 연산자 오버로딩
+// Swift type-safe language라서 유형을 혼합 할 수 없다!
+// int
+let maeninglife = 42
+let doublemeaning = 42 + 42
+// string
+let fakers = "소라의"
+let action = fakers + "개발공부" // 소라의 개발공부
