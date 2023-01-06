@@ -18,3 +18,25 @@ let doublemeaning = 42 + 42
 // string
 let fakers = "소라의"
 let action = fakers + "개발공부" // 소라의 개발공부
+
+
+// 3. Compound assignment operators
+var score = 95
+score -= 5
+
+var quote = "오늘은 월요일이고"
+quote += "내일은 화요일이야." // "오늘은 월요일이고 내일은 화요일이야."
+
+// 4. Comparison operators 비교연산자
+let firstScore1 = 6
+let secondScore1 = 4
+
+firstScore1 == secondScore1  // False
+firstScore1 != secondScore1  // True
+firstScore1 < secondScore1 // False
+firstScore1 >= secondScore1 // True
+
+// 비교연산자는 문자열에도 적용되며 알파벳순으로 적용된다
+"Black" <= "Pink" // True
+"Pink" <= "Black" // false
+
