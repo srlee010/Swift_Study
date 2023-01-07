@@ -89,6 +89,7 @@ let phone = "iphone"
 print(phone == "Android" ? "Failure" : "Success")  // Success출력
 
 
+
 // 8. Switch Statement
 let weather = "rain"  // Bring un Umbrella 출력됨
 switch weather {
@@ -135,6 +136,7 @@ default:
     print("Good work!")
 }
     
+
 
 
 
