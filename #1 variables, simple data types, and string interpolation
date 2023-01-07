@@ -1,3 +1,5 @@
+*.swift linguist-detectable=true
+
 // 1. Varaibles and Constants
 
 // var
