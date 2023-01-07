@@ -1,14 +1,2 @@
 *.swift linguist-detectable=true
 
-// 8. Switch Statement
-let weather = "rain"  // Bring un Umbrella 출력됨
-switch weather {
-case "rain":
-    print("Bring an Umbrella")
-case "snow":
-    print("Wrap up warm")
-case "sunny":
-    print("Wear sunscreen")
-default:
-    print("Enjoy your day!")
-}
