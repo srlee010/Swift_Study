@@ -1,4 +1,5 @@
-*.swift linguist-vendored
+* linguist-vendored
+*.swift linguist-vendored=false
 
 // 1. Varaibles and Constants
 
