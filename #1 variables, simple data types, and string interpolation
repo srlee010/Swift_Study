@@ -1,5 +1,4 @@
-* linguist-vendored
-*.Swift linguist-vendored=false
+*.swift linguist-detectable=true
 
 // 1. Varaibles and Constants
 
