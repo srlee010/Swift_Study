@@ -83,3 +83,14 @@ if kids == 4 {
     kids = 10
 }
 }
+
+
+
+// 3. Repeat loops
+var number2 = 1
+repeat {
+    print(number2)
+    number2 += 1
+}   while number2 <= 5
+print("Ready or not, here I come!")
+
