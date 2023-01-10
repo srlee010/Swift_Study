@@ -84,8 +84,6 @@ if kids == 4 {
 }
 }
 
-
-
 // 3. Repeat loops
 var number2 = 1
 repeat {
@@ -94,3 +92,21 @@ repeat {
 }   while number2 <= 5
 print("Ready or not, here I come!")
 
+// repeat loop에서 false사용하는 경우,
+// 처음에 텍스트 출력 후, 마지막에 while문이 실행되므로 텍스트가 한번은 출력된다
+// (이거 true로 바꾸면 무한 루프되니까 조심 ㅠ)
+repeat {
+    print("This is false")
+} while false
+
+// while loop에서 false사용 하게 되면, 아무것도 출력안됨
+// why? while 조건을 먼저 실행하기 때문에 출력할게 없음
+
+// 활용예시
+let number3 = [1, 2, 3, 4, 5]
+var random: [Int]
+repeat {
+    random = number3.shuffled()
+} while random == number3
+print(random)
+            
