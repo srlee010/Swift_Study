@@ -1,4 +1,4 @@
-// Day 4🐿
+// Day 4 🐿
 // 1. For loops
 
 let count = 1...10
