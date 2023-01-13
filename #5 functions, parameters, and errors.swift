@@ -32,6 +32,27 @@ BlackPink()
 func square(number: Int) {
     print(number * number)
 }
+square(number: 3) // 9 출력됨
 
-square(number: 8)
+// 예시 1
+// func findDirections(from: String, to: String, route: String, avoidHighways: Bool = true)
+// 위에 코드를 실행하려면 아래와 같이 작성하면 됨
+// findDirections(from: "London", to: "Seoul, route: "sceinc", "avoidHighways: true)
+
+// 예시 2
+func makeBand(names: [String]) {
+    print("Let's start a band! 🎺")
+    for name in names {
+        print("\(name) wants to join!")
+    }
+}
+makeBand(names: ["Sam", "Jay"])
+
+
+// 3. Returning Values
+func square(number: Int) -> Int {
+    return number * number
+}
+let result = square(number: 8)
+print(result)
 
