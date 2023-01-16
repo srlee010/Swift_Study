@@ -93,3 +93,11 @@ func welcome(from myName: String, to yourName: String) -> String {
     "안녕하세요 \(yourName) 님!, 저는 \(myName)(이)라고 합니다."
 }
 print(welcome(from: "쏘라", to: "해린"))
+
+
+
+// 5. Omitting parameter lables
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+greet("지수!")
