@@ -56,3 +56,9 @@ func square(number: Int) -> Int {
 let result = square(number: 8)
 print(result)
 
+
+
+// 4. Parameter labels
+func square2(number: Int) -> Int {
+    return number * number
+}
