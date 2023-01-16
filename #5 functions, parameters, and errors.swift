@@ -77,3 +77,19 @@ func welcome(myname: String, yourname: String) -> String {
     "안녕하세요 \(yourname)님!, 저는 \(myname)이라고 합니다."
 }
 print(welcome(myname: "소라", yourname: "하니")) // 안녕하세요 하니님!, 저는 소라이라고 합니다.
+
+
+// 전달인자레이블 지정하는 법?
+// 함수 정의에서 매개변수 이름 앞에 한칸을 띄운 후 지정한다.
+// 전달인자레이블을 별도로 지정하면 함수 외부에서 매개변수의 역할을 좀 더 명확하게 할 수 있음
+// func 함수이름 (전달인자레이블1 매개변수1이름 : 매개변수1타입) -> 반환타입 {
+// 함수 구현부
+// return 반환값
+// }
+
+// 전달인자 활용예시 (from과 to라는 전달인자레이블 존재)
+// myName과 youtName이라는 매개변수 이름이 있는 welcome이라는 함수
+func welcome(from myName: String, to yourName: String) -> String {
+    "안녕하세요 \(yourName) 님!, 저는 \(myName)(이)라고 합니다."
+}
+print(welcome(from: "쏘라", to: "해린"))
