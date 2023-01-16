@@ -62,3 +62,18 @@ print(result)
 func square2(number: Int) -> Int {
     return number * number
 }
+
+
+
+// 매개변수가 필요 없는 함수
+func helloSora() -> String {
+    return "안녕, 소라야!"
+}
+print(helloSora())
+
+
+// 매개변수가 여러개인 함수
+func welcome(myname: String, yourname: String) -> String {
+    "안녕하세요 \(yourname)님!, 저는 \(myname)이라고 합니다."
+}
+print(welcome(myname: "소라", yourname: "하니")) // 안녕하세요 하니님!, 저는 소라이라고 합니다.
