@@ -17,7 +17,7 @@ import SwiftUI
                 Image("macImage")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(20)
+                    .cornerRadius(15)
                 
                 HStack {
                     
