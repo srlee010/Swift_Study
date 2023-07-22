@@ -48,7 +48,7 @@ struct ContentView: View {
                     VStack {
                         Text("Player")
                             .font(.headline)
-                            .padding(.bottom, 10.0)
+                            .padding(.bottom, 9.0)
                         Text(String(playerScore))
                             .font(.largeTitle)
                             
@@ -57,7 +57,7 @@ struct ContentView: View {
                     VStack {
                          Text("CPU")
                             .font(.headline)
-                            .padding(.bottom, 10.0)
+                            .padding(.bottom, 9.0)
                         Text(String(cpuScore))
                             .font(.largeTitle)
                     }
