@@ -108,3 +108,58 @@ It's preferable to use constants as often as possible.
 """
 print(summary)
 
+
+
+------------------------
+
+
+프로그래밍 관련 용어 정리
+
+키워드 (Keyword 약속어) 
+
+Var
+Let
+If 
+True
+
+
+
+리터럴 (Literals)
+
+Int
+Double
+String
+Character
+Bool
+
+
+
+식별자(Identifier)
+
+변수
+상수
+함수
+사용자 정의 타입
+
+
+
+토큰
+
+키워드 let
+식별자
+구두점 =, ==. ==! 
+연산자
+리터럴
+
+
+
+
+표현식
+
+:값, 변수, 연산자 조합으로 ‘하나의 결과값’으로 평가되는 코드 단위 Number + 7
+
+
+문장
+
+:특정 작업을 실행하는 코드 단위 Var name = “홍길동”
+
