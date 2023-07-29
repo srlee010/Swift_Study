@@ -163,3 +163,18 @@ Bool
 
 :특정 작업을 실행하는 코드 단위 Var name = “홍길동”
 
+
+
+-----------------------------------
+
+
+
+
+// 모듈로 연산자 % : 정말 많이 사용하는 개념
+
+
+var todayWatchingTime : Int = 340
+var hour : Int = todayWatchingTime / 60
+var minute : Int = todayWatchingTime % 60
+print("오늘 당신은 총 \(todayWatchingTime)분. 즉, \(hour)시간, \(minute)분 시청하셨습니다. 훌륭해요!")
+
