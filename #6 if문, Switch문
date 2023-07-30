@@ -420,6 +420,83 @@ default:        // 정수의 범위를 다루려면 무조건 default:문을 써
 }
 
 
+// 셀프 연습 문제 
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+
+var choice: String = "보자기"
+
+switch choice {
+    case "가위":
+        print("가위냈네!")
+    case "바위":
+        print("바위냈네!")
+    case "보", "보자기":
+        print("보 혹은 보자기 냈네!")
+    default:
+        print("이상한거 내지마~")
+    break
+}
+
+var isTrue: Bool = true
+switch isTrue {
+case true:
+    print("진실")
+case false:
+    print("거짓")
+}
+
+
+var num1 = 10
+switch num1 {
+case ..<10:
+    print("10보다 작은 수야")
+case 20:
+    print("10보다 큰 숫자야 ")
+case 10...20:
+    print("1~9 사이에 숫자야")
+    fallthrough
+default:
+    print("너가 정답이야!")
+    break
+}
+
+
+
+
+var num = 30
+0...50 ~= num
+13...20 ~= num
+
+
+
+
+//연습문제
+//0도 이하: 영하 -0도 미만
+//0~18도: 0도 이상 무덥지 않은 날씨
+//19도 이상: 여름날씨
+//마지막 공통 인사: 좋은 하루 보내세요!
+
+
+var temperature = 19
+switch temperature {
+case ..<0:
+    print("영하 -0도 미만 날씨")
+case 0...18:
+    print("0도 이상 무덥지 않은 날씨")
+case 19...:
+    print("여름날씨")
+    fallthrough
+default:
+    print("좋은 하루 보내세요!")
+}
+
+
+
+
 
 
 
