@@ -598,7 +598,81 @@ default:
 }
 
 
+-------------------------------------------------------
 
+// 셀프 연습
+// Rock, Scissors, Paper Game
+var myChoice: Int = 2
+var computerChoice: Int = 0
+
+switch computerChoice {
+case 0:
+    print("You win!")
+case 1:
+    print("You lost")
+case 2:
+    print("It's a draw.")
+default:
+break
+}
+
+switch myChoice {
+case 0:
+print("I made a rock.")
+case 1:
+print("I made a scisscors.")
+case 2:
+print("I made a paper")
+default:
+break
+}
+
+
+if myChoice == 0 {
+    if computerChoice == 0 {
+        print("It's a draw.")
+    } else if computerChoice == 1 {
+        print("You lost.")
+    } else {
+        print("You win!")
+    }
+    
+} else if myChoice == 1 {
+    if computerChoice == 0 {
+        print("You lost.")
+    } else if computerChoice == 1 {
+        print("It's a draw.")
+    } else {
+        print("You win!")
+    }
+    
+    
+} else { //mychoice == 2
+    if computerChoice == 0 {
+        print("You win!")
+    }   else if computerChoice == 1 {
+        print("You lost.")
+    }   else {
+        print("It's a draw.")
+    }
+}
+
+
+if myChoice == computerChoice {
+    print("It's a draw.")
+}   else if myChoice == 0 && computerChoice ==  1 {
+    print("You win!")
+}   else if myChoice == 1 && computerChoice == 2 {
+    print("You win!")
+}   else if myChoice == 2 && computerChoice == 0 {
+    print("You win!")
+}   else {
+    print("You lost...")
+}
+
+    
+    
+    
 
 
 
